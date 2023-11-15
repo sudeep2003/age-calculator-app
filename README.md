@@ -25,7 +25,7 @@ For the Frontend Mentor Age calculator app challenge, I created a Age calculator
 
 ### Links
 
-- Solution URL: [https://github.com/sudeep2003/age-calculator-app-main.git](https://github.com/sudeep2003/age-calculator-app-main.git)
+- Solution URL: [https://github.com/sudeep2003/age-calculator-app.git](https://github.com/sudeep2003/age-calculator-app.git)
 - Live Site URL: [https://sudeep2003.github.io/age-calculator-app/](https://sudeep2003.github.io/age-calculator-app/)
 
 ### Built with
