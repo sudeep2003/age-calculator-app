@@ -14,7 +14,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ## Overview
 
-For the Frontend Mentor Age calculator app challenge, I created a Age calculator app that allows users to calculate age for various purposes. The goal of this project was to practice building responsive and visually appealing components using HTML and CSS. I aimed to create a clean and user-friendly interface for generating QR codes.
+For the Frontend Mentor Age calculator app challenge, I created a Age calculator app that allows users to calculate age for various purposes. The goal of this project was to practice building responsive and visually appealing components using HTML and CSS. I aimed to create a clean and user-friendly interface for calculating ages.
 
 ### Screenshot
 
