@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <div class="centered-box">
+  <div class="box">
+    <div class="inputs">
+      <div class="input">
+        <label for="day">DAY</label>
+        <input type="text" name="day" id="day" placeholder="DD">
+        <p id="day-error" class="error"></p>
+      </div>
+
+      <div class="input">
+        <label for="month">MONTH</label>
+        <input type="text" name="month" id="month" placeholder="MM">
+        <p id="month-error" class="error"></p>
+      </div>
+      
+        <div class="input">
+        <label for="year">YEAR</label>
+        <input type="text" name="year" id="year" placeholder="YYYY">
+        <P id="year-error" class="error"></P>
+      </div>
+    </div>
+
+    <div class="button-line">
+      <hr class="line">
+      <button onclick="calculateAge()" class="button"><svg xmlns="http://www.w3.org/2000/svg" class="svg-class" viewBox="0 0 44 44"><g fill="none" stroke="#FFF" class="g-class"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+    </div>
+
+    <h1 class="result"><span id="age_year" class="result-amount">--</span> years</h1>
+    <h1 class="result"><span id="age_month" class="result-amount">--</span> months</h1>
+    <h1 class="result"><span id="age_day" class="result-amount">--</span> days</h1>
+  </div>
+  </div>
+
+  <footer class="acknowledge">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/sudeep2003">Sudeep Karmakar</a>.
+  </footer>
+  <script src="/index.js"></script>
+</body>
+</html>
